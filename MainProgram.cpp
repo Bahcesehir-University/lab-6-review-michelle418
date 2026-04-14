@@ -66,7 +66,7 @@ public:
     // Print: "Student [name] destroyed"
     ~Student() {
         // YOUR CODE HERE
-         cout << "Student" << name << "destroyed " << endl;
+         cout << "Student" << name << " destroyed " << endl;
     }
 
     // ----- Task 2: Getters (Encapsulation) -----
@@ -125,7 +125,7 @@ public:
     string getFormattedName() const {
         // YOUR CODE HERE
         string result=name;
-        for(int i=0 ; i<result.length() ; i++)
+        for(size_t i=0 ; i<result.length() ; i++)
         {
             result[i]=toupper(result[i]);
         }
