@@ -139,7 +139,7 @@ public:
     // Two students are equal if they have the same id
     bool operator==(const Student& other) const {
         
-        return (id == other.id);
+        return id == other.id;
         
     //SANS THIS.ID 
         
